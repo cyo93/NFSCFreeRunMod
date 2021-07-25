@@ -22,12 +22,6 @@ DWORD WINAPI MainThread() {
 	DWORD originalmethod = 0x5DC922;
 	injector::MakeJMP(originalmethod, newRaceHashCheck, true);
 
-	// Main Loop.
-	/*while (true) {
-		
-	}
-	FreeLibraryAndExitThread((HMODULE)param, 0);*/
-
 	return 0;
 }
 
