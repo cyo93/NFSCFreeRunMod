@@ -1,0 +1,124 @@
+# race_bin_quickrace/free_run
+add_node gameplay tollboothrace race_bin_quickrace/free_run
+add_field gameplay race_bin_quickrace/free_run Children 1
+add_field gameplay race_bin_quickrace/free_run CopsInRace
+add_field gameplay race_bin_quickrace/free_run DoCountdown
+add_field gameplay race_bin_quickrace/free_run EventID
+add_field gameplay race_bin_quickrace/free_run ForceTrafficDensity
+add_field gameplay race_bin_quickrace/free_run gameplayvault
+add_field gameplay race_bin_quickrace/free_run InitiallyUnlocked
+add_field gameplay race_bin_quickrace/free_run IntroNIS
+add_field gameplay race_bin_quickrace/free_run LocalizationTag
+add_field gameplay race_bin_quickrace/free_run Name
+add_field gameplay race_bin_quickrace/free_run PursuitRace
+add_field gameplay race_bin_quickrace/free_run QuickRaceUnlocked
+add_field gameplay race_bin_quickrace/free_run racestart
+add_field gameplay race_bin_quickrace/free_run Region
+add_field gameplay race_bin_quickrace/free_run RollingStart
+add_field gameplay race_bin_quickrace/free_run StartTime
+add_field gameplay race_bin_quickrace/free_run Template
+add_field gameplay race_bin_quickrace/free_run TimeLimit
+add_field gameplay race_bin_quickrace/free_run TrackPosition
+add_field gameplay race_bin_quickrace/free_run TrackRecord
+add_field gameplay race_bin_quickrace/free_run TrafficLevel
+add_field gameplay race_bin_quickrace/free_run UseWorldHeat
+change_vault gameplay race_bin_quickrace/free_run race_bin_quickrace
+update_field gameplay race_bin_quickrace/free_run Children[0] race_bin_quickrace/free_run/startgrid
+update_field gameplay race_bin_quickrace/free_run EventID qr.fr
+update_field gameplay race_bin_quickrace/free_run ForceTrafficDensity 100
+update_field gameplay race_bin_quickrace/free_run gameplayvault free_run
+update_field gameplay race_bin_quickrace/free_run InitiallyUnlocked True
+update_field gameplay race_bin_quickrace/free_run LocalizationTag 149
+update_field gameplay race_bin_quickrace/free_run Name race_bin_quickrace/free_run
+update_field gameplay race_bin_quickrace/free_run PursuitRace True
+update_field gameplay race_bin_quickrace/free_run QuickRaceUnlocked True
+update_field gameplay race_bin_quickrace/free_run racestart race_bin_quickrace/free_run/startgrid
+update_field gameplay race_bin_quickrace/free_run Region santafe
+update_field gameplay race_bin_quickrace/free_run RollingStart True
+update_field gameplay race_bin_quickrace/free_run StartTime 10
+update_field gameplay race_bin_quickrace/free_run TimeLimit 0
+update_field gameplay race_bin_quickrace/free_run TrackPosition X 3350
+update_field gameplay race_bin_quickrace/free_run TrackPosition Y 300
+update_field gameplay race_bin_quickrace/free_run TrafficLevel 100
+update_field gameplay race_bin_quickrace/free_run UseWorldHeat True
+
+# race_bin_quickrace/free_run_san_juan
+add_node gameplay tollboothrace race_bin_quickrace/free_run_san_juan
+add_field gameplay race_bin_quickrace/free_run_san_juan Children 1
+add_field gameplay race_bin_quickrace/free_run_san_juan CopsInRace
+add_field gameplay race_bin_quickrace/free_run_san_juan DoCountdown
+add_field gameplay race_bin_quickrace/free_run_san_juan EventID
+add_field gameplay race_bin_quickrace/free_run_san_juan ForceTrafficDensity
+add_field gameplay race_bin_quickrace/free_run_san_juan gameplayvault
+add_field gameplay race_bin_quickrace/free_run_san_juan InitiallyUnlocked
+add_field gameplay race_bin_quickrace/free_run_san_juan IntroNIS
+add_field gameplay race_bin_quickrace/free_run_san_juan LocalizationTag
+add_field gameplay race_bin_quickrace/free_run_san_juan Name
+add_field gameplay race_bin_quickrace/free_run_san_juan PursuitRace
+add_field gameplay race_bin_quickrace/free_run_san_juan QuickRaceUnlocked
+add_field gameplay race_bin_quickrace/free_run_san_juan racestart
+add_field gameplay race_bin_quickrace/free_run_san_juan Region
+add_field gameplay race_bin_quickrace/free_run_san_juan RollingStart
+add_field gameplay race_bin_quickrace/free_run_san_juan StartTime
+add_field gameplay race_bin_quickrace/free_run_san_juan Template
+add_field gameplay race_bin_quickrace/free_run_san_juan TimeLimit
+add_field gameplay race_bin_quickrace/free_run_san_juan TrackPosition
+add_field gameplay race_bin_quickrace/free_run_san_juan TrackRecord
+add_field gameplay race_bin_quickrace/free_run_san_juan TrafficLevel
+add_field gameplay race_bin_quickrace/free_run_san_juan UseWorldHeat
+change_vault gameplay race_bin_quickrace/free_run_san_juan race_bin_quickrace
+update_field gameplay race_bin_quickrace/free_run_san_juan Children[0] race_bin_quickrace/free_run_san_juan/startgrid
+update_field gameplay race_bin_quickrace/free_run_san_juan EventID qr.sj
+update_field gameplay race_bin_quickrace/free_run_san_juan ForceTrafficDensity 100
+update_field gameplay race_bin_quickrace/free_run_san_juan gameplayvault free_run_san_juan
+update_field gameplay race_bin_quickrace/free_run_san_juan InitiallyUnlocked True
+update_field gameplay race_bin_quickrace/free_run_san_juan LocalizationTag 150
+update_field gameplay race_bin_quickrace/free_run_san_juan Name race_bin_quickrace/free_run_san_juan
+update_field gameplay race_bin_quickrace/free_run_san_juan PursuitRace True
+update_field gameplay race_bin_quickrace/free_run_san_juan QuickRaceUnlocked True
+update_field gameplay race_bin_quickrace/free_run_san_juan racestart race_bin_quickrace/free_run_san_juan/startgrid
+update_field gameplay race_bin_quickrace/free_run_san_juan Region santafe
+update_field gameplay race_bin_quickrace/free_run_san_juan RollingStart True
+update_field gameplay race_bin_quickrace/free_run_san_juan StartTime 10
+update_field gameplay race_bin_quickrace/free_run_san_juan TimeLimit 0
+update_field gameplay race_bin_quickrace/free_run_san_juan TrackPosition X 6137.683
+update_field gameplay race_bin_quickrace/free_run_san_juan TrackPosition Y 2558.918
+update_field gameplay race_bin_quickrace/free_run_san_juan TrafficLevel 100
+update_field gameplay race_bin_quickrace/free_run_san_juan UseWorldHeat True
+
+# race_bin_quickrace/free_run/startgrid
+add_node gameplay startgrid race_bin_quickrace/free_run/startgrid
+add_field gameplay race_bin_quickrace/free_run/startgrid Name
+add_field gameplay race_bin_quickrace/free_run/startgrid Position
+add_field gameplay race_bin_quickrace/free_run/startgrid Rotation
+add_field gameplay race_bin_quickrace/free_run/startgrid Template
+change_vault gameplay race_bin_quickrace/free_run/startgrid free_run
+update_field gameplay race_bin_quickrace/free_run/startgrid Name race_bin_quickrace/free_run/startgrid
+update_field gameplay race_bin_quickrace/free_run/startgrid Position X 3406.85
+update_field gameplay race_bin_quickrace/free_run/startgrid Position Y 326.42
+update_field gameplay race_bin_quickrace/free_run/startgrid Position Z 28.7
+update_field gameplay race_bin_quickrace/free_run/startgrid Rotation 253.328
+
+# race_bin_quickrace/free_run_san_juan/startgrid
+add_node gameplay startgrid race_bin_quickrace/free_run_san_juan/startgrid
+add_field gameplay race_bin_quickrace/free_run_san_juan/startgrid Name
+add_field gameplay race_bin_quickrace/free_run_san_juan/startgrid Position
+add_field gameplay race_bin_quickrace/free_run_san_juan/startgrid Rotation
+add_field gameplay race_bin_quickrace/free_run_san_juan/startgrid Template
+change_vault gameplay race_bin_quickrace/free_run_san_juan/startgrid free_run_san_juan
+update_field gameplay race_bin_quickrace/free_run_san_juan/startgrid Name race_bin_quickrace/free_run_san_juan/startgrid
+update_field gameplay race_bin_quickrace/free_run_san_juan/startgrid Position X -2301.670
+update_field gameplay race_bin_quickrace/free_run_san_juan/startgrid Position Y 1792.720
+update_field gameplay race_bin_quickrace/free_run_san_juan/startgrid Position Z -7.350
+update_field gameplay race_bin_quickrace/free_run_san_juan/startgrid Rotation 345.811
+
+# race_bin_quickrace
+resize_field gameplay race_bin_quickrace Children 29
+update_field gameplay race_bin_quickrace Children[27] race_bin_quickrace/free_run
+update_field gameplay race_bin_quickrace Children[28] race_bin_quickrace/free_run_san_juan
+
+# Unlock for existing profiles
+resize_field gameplay race_bin_challenge/6_3_1 UnlockRaces 3
+update_field gameplay race_bin_challenge/6_3_1 UnlockRaces[1] race_bin_quickrace/free_run
+update_field gameplay race_bin_challenge/6_3_1 UnlockRaces[2] race_bin_quickrace/free_run_san_juan
+

@@ -1,0 +1,13 @@
+#	*Labrune - C:\Program Files (x86)\Electronic Arts\Need for Speed Carbon\LANGUAGES\English_Global.bin
+#	File created on: 6/28/2021 7:13:43 PM
+#
+#Chunk	Hash (HEX)	Label	Value
+# ---------------------------------------------------------------------------------------------------------
+# Chunk 0 - Global
+0	38DC2C31	TRACK_NAME_149	FREE RUN
+0	F39928BF	TRACK_NAME_149_LC	Free Run
+0	38DC2C49	TRACK_NAME_150	FREE RUN - SAN JUAN
+0	F3A651D7	TRACK_NAME_150_LC	Free Run - San Juan
+
+# Chunk 1 - Online
+# Chunk 2 - Demo
