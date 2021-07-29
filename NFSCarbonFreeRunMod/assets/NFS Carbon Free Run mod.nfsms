@@ -118,7 +118,7 @@ update_field gameplay race_bin_quickrace Children[27] race_bin_quickrace/free_ru
 update_field gameplay race_bin_quickrace Children[28] race_bin_quickrace/free_run_san_juan
 
 # Unlock for existing profiles
-resize_field gameplay race_bin_challenge/6_3_1 UnlockRaces 3
-update_field gameplay race_bin_challenge/6_3_1 UnlockRaces[1] race_bin_quickrace/free_run
-update_field gameplay race_bin_challenge/6_3_1 UnlockRaces[2] race_bin_quickrace/free_run_san_juan
+add_field gameplay encounters/encounter_race UnlockRaces 2
+update_field gameplay encounters/encounter_race UnlockRaces[0] race_bin_quickrace/free_run
+update_field gameplay encounters/encounter_race UnlockRaces[1] race_bin_quickrace/free_run_san_juan
 

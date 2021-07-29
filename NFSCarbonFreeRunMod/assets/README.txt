@@ -1,5 +1,7 @@
 README
 
+What's New:
+Fixed a critical issue where it's impossible to unlock the free run races for existing profiles when the checkpoint bronze challenge is complete. Existing profiles now need to complete a random encounter instead.
 
 What does this mod do:
 In Need for Speed Underground 2, it's possible to free drive around Bayview in Quick Race, meaning that you can use your custom non-career cars and stock cars to free drive around Bayview. However, this option does not exist in Need For Speed Carbon. 
@@ -18,7 +20,7 @@ INSTALLATION
 3. Install the "Language Patch English.txt" file using Labrune by selecting the "English.bin" found in the LANGUAGES folder using Labrune and clicking on File->Import->Text File. Import the text file in the Mod Directory by selecting it.
 4. Using NFS Tex-Ed, open up the Trackmaps.bin file and go to Texture->Add and add the TRACK_MAP_QR_FR.dds, and TRACK_MAP_QR_SJ file to the bin file.
 5. Copy the "scripts" folder, and the "dinput8.dll" file (if it doesn't exist in the game directory) to the game directory.
-6. If you are using an existing save file, complete the Checkpoint bronze challenge in the Challenge Series (Even if you completed it earlier). New users don't need to do this.
+6. If you are using an existing save file, complete a random encounter in Career mode. New users don't need to do this.
 7. Enjoy!
 
 
