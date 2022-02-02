@@ -3,7 +3,6 @@
 #include "injector.hpp"
 
 
-DWORD newRaceHashCheckExit = 0x5DC927;
 void _declspec(naked) newRaceHashCheck() {
 	_asm {
 	if_statements:
@@ -12,15 +11,14 @@ void _declspec(naked) newRaceHashCheck() {
 		cmp eax, 0x47342756
 		je[true_return]
 		cmp eax, 0x7C9134FB
-		jmp[newRaceHashCheckExit]
+		retn
 	true_return:
-		jmp[newRaceHashCheckExit]
+		retn
 	}
 }
 
 DWORD WINAPI MainThread() {
-	DWORD originalmethod = 0x5DC922;
-	injector::MakeJMP(originalmethod, newRaceHashCheck, true);
+	injector::MakeCALL(0x5DC922, newRaceHashCheck, true);
 
 	return 0;
 }
