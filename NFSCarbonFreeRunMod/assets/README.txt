@@ -38,4 +38,4 @@ Game executables (even if they are modified) are not accepted.
 
 CREDITS
 
-Injectors - LINK (C) 2012. Used to remove the timer during free run.
+Injectors - LINK (C) 2012. Used to remove the timer during free run. gvm.hpp modified for extra security.
