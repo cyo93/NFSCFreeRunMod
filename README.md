@@ -7,3 +7,7 @@ A mod to free run in quick race in Need for Speed: Carbon.
 3. Press CTRL+SHIFT+B to build the file. It should be available in the "Build" folder in your solution.
 4. Rename NFSCarbonFreeRunMod.dll to NFSCarbonFreeRunMod.asi.
 5. Place the asi file in the "scripts" folder inside your game directory (Assuming that you have already installed Ultimate ASI Loader by Aero)
+
+# Credits
+
+Injectors (C) 2012 LINK. gvm.hpp modified for extra security. 
