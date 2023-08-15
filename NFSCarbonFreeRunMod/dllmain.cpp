@@ -1,6 +1,6 @@
 #include "pch.h"
 #include <Windows.h>
-#include "injector.hpp"
+#include "include\injector.hpp"
 
 
 void _declspec(naked) newRaceHashCheck() {
@@ -9,6 +9,8 @@ void _declspec(naked) newRaceHashCheck() {
 		cmp eax, 0x4603D0DE
 		je[true_return]
 		cmp eax, 0x47342756
+		je[true_return]
+		cmp eax, 0x23A46623
 		je[true_return]
 		cmp eax, 0x7C9134FB
 		retn
